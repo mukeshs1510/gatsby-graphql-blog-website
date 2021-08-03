@@ -50,8 +50,8 @@ export const GlobalStyles = createGlobalStyle`
         font-style: normal;
     }
     body{
-        background: {props => props.theme.colors.background};
-        color: {props => props.theme.colors.color};
+        background: ${props => props.theme.colors.background};
+        color: ${props => props.theme.colors.textMain};
         margin: 0;
         font-family: 'Montserrat Regular', Arial, Helvetica, sans-serif;
         padding: 0 20px 80px 20px;
@@ -62,7 +62,7 @@ export const GlobalStyles = createGlobalStyle`
         margin: 40px auto;
     }
     h1,h2,h3,h4,h5,h6{
-        color: {props => props.theme.colors.textMain};
+        color: ${props => props.theme.colors.textMain};
         font-family: 'Montserrat Black', Arial, Helvetica, sans-serif;
         transition: all 0.4s ease;
         letter-spacing: 1px;
