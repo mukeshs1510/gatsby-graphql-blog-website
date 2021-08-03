@@ -1,10 +1,10 @@
-import { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle } from "styled-components"
 import MontserratBlack from "fonts/Montserrat-Black.ttf"
 import MontserratRegular from "fonts/Montserrat-Regular.ttf"
 
 export const colors = {
   white: "#fff",
-  darkGrey: "#1a1c20",
+  darkGrey: "#1a102c",
   deepDarkGrey: "#404040",
   blueShade1: "#215973",
   blueShade2: "#61adc6",
@@ -51,7 +51,7 @@ export const GlobalStyles = createGlobalStyle`
     }
     body{
         background: ${props => props.theme.colors.background};
-        color: ${props => props.theme.colors.textMain};
+        color: ${props => props.theme.colors.textSecondary};
         margin: 0;
         font-family: 'Montserrat Regular', Arial, Helvetica, sans-serif;
         padding: 0 20px 80px 20px;
