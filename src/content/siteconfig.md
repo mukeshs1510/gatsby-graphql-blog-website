@@ -1,6 +1,6 @@
 ---
 type: "config"
-logo: ".../images/log.png"
+logo: "../images/log.png"
 menu:
   - id: "menu-item-1"
     name: "About"
